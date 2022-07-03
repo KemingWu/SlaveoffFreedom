@@ -18,3 +18,5 @@ Ui::Form createUi; //定义Ui::Form类的对象createUi(普通变量)
 createUi.setupUi(hw)//该函数接收一个窗体对象指针，为hw创建内部的控件
 setStyleSheet //设置窗口或控件的显示风格，所有窗口和控件可用
 setStyleSheet(tr("color : xx ; background-color : rgb(0,255,255)"))
+//遇到构建问题的两种解决方法
+1、修改了pro文件后，需要手动重新构建项目；2删除构建目录如build-testbug，点击构建或运行按钮，实现重新构建项目。
