@@ -42,6 +42,8 @@ bool QDir::mkdir(const QString & dirName) const    //创建新目录
 bool QDir::rename(const QString & oldName, const QString & newName) //重命名旧的目录
 bool QDir::rmdir(const QString & dirName) const    //只能删除一个空目录
 void QDir::refresh() const //刷新缓存
+<QDesktopServices> 打开本地文件链接
+  
 
 
 
